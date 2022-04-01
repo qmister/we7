@@ -1,0 +1,19 @@
+{
+    "name": "qmister/we7",
+    "description": "we7",
+    "require": {
+        "ext-curl": "*",
+        "ext-zlib": "*",
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qmister\\We7\\": "src/"
+        },
+        "files": [
+            "src/global.func.php",
+            "src/pdo.func.php",
+            "src/communication.func.php"
+        ]
+    }
+}
